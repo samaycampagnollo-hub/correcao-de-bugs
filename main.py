@@ -93,7 +93,7 @@ def senha_valida(senha):
 # 🐛 BUG: a comparação está invertida
 def maior_numero(a, b):
     """Retorna o maior número entre a e b."""
-    if a < b:  # BUG: deveria ser a > b
+    if a > b:  
         return a
     else:
         return b
