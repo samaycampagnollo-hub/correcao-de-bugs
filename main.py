@@ -163,7 +163,7 @@ def somar_lista(numeros):
 # 🐛 BUG: está retornando o menor valor, não o maior
 def maior_da_lista(numeros):
     """Retorna o maior número de uma lista."""
-    return min(numeros)  # BUG: deveria ser max(numeros)
+    return max(numeros)  
 
 # Função 19 - Conta quantos alunos têm nota maior ou igual a 6
 def contar_aprovados(notas):
